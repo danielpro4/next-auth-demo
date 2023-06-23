@@ -1,0 +1,47 @@
+{
+    "name": "@parrot/menu",
+    "version": "1.0.0",
+    "description": "frontend menu app",
+    "license": "MIT",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "prettier": "prettier --write 'menu/src/**/*.{js,jsx}'",
+        "lint:fix": "eslint menu/src/ --fix"
+    },
+    "dependencies": {
+        "antd": "^4.18.8",
+        "axios": "^0.26.0",
+        "got": "^12.0.1",
+        "lodash": "^4.17.21",
+        "next": "12.1.0",
+        "next-auth": "^4.2.1",
+        "query-string": "^7.1.1",
+        "ramda": "^0.28.0",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "react-query": "^3.34.16",
+        "react-redux": "^7.2.6",
+        "redux": "^4.1.2",
+        "redux-devtools-extension": "^2.13.9",
+        "redux-thunk": "^2.4.1",
+        "simplebar-react": "^2.3.6",
+        "@parrot/common": "*"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.2",
+        "eslint": "8.9.0",
+        "eslint-config-next": "12.1.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-jsx-a11y": "^6.5.1",
+        "eslint-plugin-prettier": "^4.0.0",
+        "postcss": "^8.4.7",
+        "prettier": "^2.5.1",
+        "tailwindcss": "^3.0.23"
+    },
+    "resolutions": {
+        "eslint-plugin-react": "7.28.0"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src",
+        "paths": {
+            "@/config/*": ["config/*"],
+            "@/redux/*": ["redux/*"],
+            "@/services/*": ["services/*"],
+            "@/containers/*": ["containers/*"],
+            "@/components/*": ["components/*"]
+        },
+        "sourceMap": false,
+        "target": "es5",
+        "esModuleInterop": true
+    },
+    "include": [],
+    "exclude": [
+        "../node_modules"
+    ],
+    "checkJs": true
+}

@@ -1,0 +1,22 @@
+.ant-layout-header {
+    @apply bg-red-parrot-500;
+}
+
+.ant-menu {
+    @apply bg-red-parrot-500 text-white;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active {
+    @apply text-white;
+}
+
+.ant-menu-horizontal {
+    border-bottom-color: transparent;
+}
+
+.ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    background-color: transparent;
+    border-color: transparent;
+    @apply text-white;
+}

@@ -1,0 +1,22 @@
+{
+    "name": "next-auth-demo",
+    "version": "1.0.0",
+    "description": "Frontend demo",
+    "private": true,
+    "author": "@danielpro5",
+    "license": "MIT",
+    "engines": {
+        "node": "16.x"
+    },
+    "workspaces": [
+        "common",
+        "menu"
+    ],
+    "scripts": {
+        "build": "yarn workspaces run build",
+        "dev": "yarn --cwd menu dev",
+        "start": "yarn --cwd menu start"
+    },
+    "dependencies": {
+    }
+}
